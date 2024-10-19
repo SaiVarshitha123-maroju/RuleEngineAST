@@ -69,6 +69,5 @@ The application defines a data structure for the AST, represented as nodes. Each
   
 7.Acknowledgments:
 
-  OpenWeatherMap API for providing the weather data.
   Node.js, Express, and MongoDB for the backend architecture.
 
