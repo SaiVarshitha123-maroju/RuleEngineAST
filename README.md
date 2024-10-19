@@ -93,11 +93,11 @@ The **Real-Time Data Processing System for Weather Monitoring** is a Node.js app
 
 To set up the project locally, follow these steps:
 
-1. **Clone the repository**:
+1.**Clone the repository**:
 
    git clone https://github.com/SaiVarshitha123-maroju/Zeotap.git
    
-3. Navigate to the project directory:
+2.Navigate to the project directory:
 
   cd weather-monitoring-system
   
