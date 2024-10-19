@@ -49,7 +49,7 @@ The application defines a data structure for the AST, represented as nodes. Each
   
   Clone the repository:
   
-    git clone https://github.com/SaiVarshitha123-maroju/Zeotap.git
+    https://github.com/SaiVarshitha123-maroju/RuleEngineAST.git
 
 3.Navigate to the project directory:
 
