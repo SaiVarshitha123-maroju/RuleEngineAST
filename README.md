@@ -21,7 +21,7 @@ The application defines a data structure for the AST, represented as nodes. Each
 
 ### Sample AST Node Structure
 
-json
+```json
 {
   "type": "operator",
   "left": {
@@ -33,7 +33,7 @@ json
     "value": 30
   }
 }
-
+```
 API Design
   The application exposes the following API endpoints:
 
