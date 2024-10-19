@@ -34,7 +34,7 @@ The application defines a data structure for the AST, represented as nodes. Each
   }
 }
 ```
-API Design
+1.API Design
   The application exposes the following API endpoints:
 
   create_rule(rule_string): Takes a string representing a rule and returns a Node object representing the corresponding AST.
@@ -43,25 +43,31 @@ API Design
   
   check_eligibility(data): Takes a JSON representation of the combined rule's AST and a dictionary of user attributes, evaluates the rule, and returns True or False.
 
-Installation:
+2.Installation:
 
   To set up the project locally, follow these steps:
+  
   Clone the repository:
+  
     git clone https://github.com/SaiVarshitha123-maroju/Zeotap.git
 
-Navigate to the project directory:
+3.Navigate to the project directory:
 
   cd rule-engine-ast
-Install dependencies (if applicable):
+  
+4.Install dependencies (if applicable):
 
   npm install
-Set up the database:
+  
+5.Set up the database:
 
   Ensure your database server is running and set up the schema as described.
-Start the application:
+  
+6.Start the application:
 
   npm start
-Acknowledgments:
+  
+7.Acknowledgments:
 
   OpenWeatherMap API for providing the weather data.
   Node.js, Express, and MongoDB for the backend architecture.
@@ -90,24 +96,31 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
 
    git clone https://github.com/SaiVarshitha123-maroju/Zeotap.git
-2. Navigate to the project directory:
+   
+3. Navigate to the project directory:
 
   cd weather-monitoring-system
+  
 3.Install dependencies:
 
   npm install
+  
 4.Set up MongoDB:
 
 Ensure that MongoDB is installed and running on your machine. You can use the default connection string provided in the code (mongodb://localhost:27017/weatherDB).
+
 5.Obtain OpenWeatherMap API Key:
 
 Sign up at OpenWeatherMap to obtain a free API key and configure it in your application.
+
 6.Start the server:
 
   npm start
+  
 7.Usage:
 
 The application will start fetching weather data every 5 minutes. You can modify the user configuration for temperature thresholds directly in the code
+
 8.Acknowledgments:
 
   OpenWeatherMap API for providing the weather data.
