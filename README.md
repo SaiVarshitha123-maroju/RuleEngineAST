@@ -21,7 +21,7 @@ The application defines a data structure for the AST, represented as nodes. Each
 
 ### Sample AST Node Structure
 
-```json
+json
 {
   "type": "operator",
   "left": {
