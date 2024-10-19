@@ -1,0 +1,113 @@
+
+  
+  /* Headers */
+  h1, h2, h3 {
+    color: #0f0f0f;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 2px;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  
+  /* Input fields */
+  input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4a90e2;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #4a90e2;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #357abd;
+  }
+  
+  button:disabled {
+    background-color: white;
+    cursor: not-allowed;
+  }
+  
+  /* Lists and items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f4f4f4;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  /* Display box */
+  div p, div ul, div input {
+    margin-bottom: 10px;
+  }
+  
+  div p {
+    font-size: 16px;
+    color: #0b0b0b;
+  }
+  
+  div ul {
+    font-size: 14px;
+    color: #efc8c8;
+  }
+  
+  /* Rule Combination and Result Box */
+  div ul, div p {
+    text-align: left;
+  }
+  
+  div ul li, div ul p {
+    background-color: #070707;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  div ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Result */
+  h3 {
+    color: #4a90e2;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  
